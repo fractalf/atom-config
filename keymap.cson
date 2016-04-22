@@ -1,0 +1,15 @@
+'body':
+  'f1': 'core:copy'
+  'f2': 'core:paste'
+  'f7': 'core:cut'
+'atom-text-editor':
+  'f2': 'unset!'
+'atom-workspace atom-text-editor:not([mini])':
+  'f5': 'editor:toggle-line-comments'
+'.platform-win32, .platform-linux':
+  'alt-f3': 'find-and-replace:show'
+  'f6': 'fuzzy-finder:toggle-file-finder'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'alt-f3': 'unset!'
+# 'atom-text-editor':
+#   'ctrl-shift-Z': 'unset!'
