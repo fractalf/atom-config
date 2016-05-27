@@ -1,10 +1,10 @@
 '.source.php':
     'print_r':
-        'prefix': 'debp'
+        'prefix': 'printr'
         'body': 'echo \'<pre>\';\nprint_r(\$$1);\necho \'<pre>\';\nexit;\n'
     'var_dump':
-        'prefix': 'debv'
-        'body': 'var_dump(\$$1);exit;\n'
+        'prefix': 'vardump'
+        'body': 'var_dump(\$$1);\nexit;\n'
     'json':
-        'prefix': 'debj'
+        'prefix': 'json'
         'body': 'header(\'Content-type: application/json\');\necho json_encode(\$$1);\nexit;\n'
