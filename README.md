@@ -12,8 +12,11 @@ Config files for https://atom.io/ (C:\Users\me\.atom\)
 * file-icons
 * file-watcher
 * fonts
+* markdown-preview-plus
+* markdown-writer
 * minimap
 * open-recent
 * pigments
 * revert-buffer
+* single-click-open
 * split-diff
