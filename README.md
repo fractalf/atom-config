@@ -1,5 +1,5 @@
 # atom-config
-Config files for https://atom.io/ (C:\Users\me\.atom\)
+Config files for https://atom.io/ (C:\Users\me\\.atom\)
 
 ## Packages I use
 
