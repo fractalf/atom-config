@@ -1,0 +1,53 @@
+"*":
+  "atom-alignment":
+    alignBy: [
+      "=>"
+      ":="
+      ":"
+      "="
+      "?"
+    ]
+  "color-picker":
+    abbreviateValues: true
+    preferredFormat: "HEX"
+  core:
+    disabledPackages: [
+      "spell-check"
+    ]
+    ignoredNames: [
+      ".*"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Code New Roman"
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "6040f239-c4f8-b533-041a-1106f5b51674"
+  "file-watcher":
+    logDebugMessages: true
+    promptWhenChange: true
+  fonts:
+    fontFamily: "Bitstream Vera Sans Mono"
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  "open-recent":
+    maxRecentDirectories: 20
+    maxRecentFiles: 20
+  pigments:
+    markerType: "dot"
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false 
