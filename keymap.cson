@@ -2,14 +2,19 @@
   'f1': 'core:copy'
   'f2': 'core:paste'
   'f7': 'core:cut'
+  'f9': 'revert-buffer:revert'
 'atom-text-editor':
   'f2': 'unset!'
 'atom-workspace atom-text-editor:not([mini])':
   'f5': 'editor:toggle-line-comments'
 '.platform-win32, .platform-linux':
+  'ctrl-l': 'go-to-line:toggle'
   'alt-f3': 'find-and-replace:show'
-  'f6': 'fuzzy-finder:toggle-file-finder'
+  'f8': 'fuzzy-finder:toggle-file-finder'
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-l': 'unset!'
   'alt-f3': 'unset!'
+  'ctrl-g': 'unset!'
+  'f6': 'block-comment-plus:toggle'
 # 'atom-text-editor':
 #   'ctrl-shift-Z': 'unset!'
